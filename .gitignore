@@ -1,0 +1,98 @@
+# ============================================
+# 🚀 SPRING BOOT + MAVEN + VS CODE
+# ============================================
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle (por si se usa en algún módulo)
+.gradle/
+build/
+
+# Logs
+*.log
+logs/
+*.out
+*.sql
+*.sqlite
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+.history/
+.settings/
+*.code-workspace
+
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Configuración temporal
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Spring Boot specific
+.springBeans
+
+# Credenciales o configuraciones sensibles
+application-*.yml
+application-*.properties
+!application.properties  # deja tu archivo base, ignora otros como application-dev.properties
+
+# Lombok
+lombok.config
+
+# Archivos de entorno
+.env
+.env.*
+
+# Dependencias descargadas
+dependency-cache/
+
+# Archivos de cobertura y pruebas
+*.exec
+*.test
+*.coverage
+coverage/
+test-output/
+surefire-reports/
+jacoco.exec
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
